@@ -1,0 +1,278 @@
+@import url("reset.css");
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: null;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrapper header {
+  width: 100%;
+  height: 45px;
+  background: #129aee;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 8px 14px;
+  line-height: 35px;
+}
+.wrapper header #img {
+  width: auto;
+  height: 17px;
+  background: none;
+  margin-right: 10px;
+}
+.wrapper header #right {
+  width: 100%;
+  height: auto;
+  background: #0e7bbe;
+  -webkit-box-flex: 1;
+  border-radius: 20px;
+  position: relative;
+  padding-left: 30px;
+  padding-right: 5px;
+  line-height: 28px;
+}
+.wrapper header #right img {
+  width: auto;
+  height: 12px;
+  background: none;
+  position: absolute;
+  top: 8px;
+  left: 13px;
+}
+.wrapper header #right input {
+  width: 100%;
+  height: auto;
+  background: #0e7bbe;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+.wrapper section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrapper section::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper section .nav {
+  overflow-x: hidden;
+  width: 100%;
+  height: 35.5px;
+  background: #fafafa;
+  border-bottom: 1px solid #d8d8d8;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  padding: 10px 0 10px 15px;
+}
+.wrapper section .nav ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrapper section .nav ul li {
+  font-size: 14px;
+  color: #434343;
+  text-align: center;
+  -webkit-box-flex: 1;
+}
+.wrapper section .nav span {
+  border: 3px solid #797979;
+  border-left: none;
+  border-top: none;
+  width: 14px;
+  height: 14px;
+  background: none;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 14px;
+  right: 15px;
+}
+.wrapper section .main {
+  padding: 0 15px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrapper section .main .p {
+  padding: 15px 0 8px 0;
+  width: 100%;
+  height: 64px;
+  background: #fafafa;
+  border-bottom: 1px solid #d8d8d8;
+  position: relative;
+}
+.wrapper section .main .p p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.wrapper section .main .p ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrapper section .main .p ul li {
+  display: inline-block;
+  font-size: 9px;
+  color: #909090;
+  text-align: center;
+  -webkit-box-flex: 1;
+}
+.wrapper section .main .p ul li span {
+  display: inline-block;
+  width: 21px;
+  height: 11px;
+  background: none;
+  border: 1px solid #5197ca;
+  color: #5197ca;
+  text-align: center;
+  line-height: 11px;
+}
+.wrapper section .main .p img {
+  width: auto;
+  height: 8px;
+  background: none;
+  position: absolute;
+  right: 0px;
+  bottom: 5px;
+}
+.wrapper section .main .dl1 {
+  width: 100%;
+  height: 96px;
+  background: #fafafa;
+  padding: 8px 0;
+  border-bottom: 1px solid #d8d8d8;
+}
+.wrapper section .main .dl1 dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrapper section .main .dl1 dl dt {
+  width: 100%;
+  height: auto;
+  background: none;
+  -webkit-box-flex: 1;
+  position: relative;
+  margin-right: 15px;
+}
+.wrapper section .main .dl1 dl dt p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: bold;
+  margin-bottom: 12px;
+  line-height: 23px;
+}
+.wrapper section .main .dl1 dl dt ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrapper section .main .dl1 dl dt ul li {
+  display: inline-block;
+  font-size: 9px;
+  color: #909090;
+  text-align: center;
+  -webkit-box-flex: 1;
+}
+.wrapper section .main .dl1 dl dt ul li span {
+  display: inline-block;
+  width: 21px;
+  height: 11px;
+  background: none;
+  border: 1px solid #5197ca;
+  color: #5197ca;
+  text-align: center;
+  line-height: 11px;
+}
+.wrapper section .main .dl1 dl dt img {
+  width: auto;
+  height: 8px;
+  background: none;
+  position: absolute;
+  right: 0px;
+  bottom: 3px;
+}
+.wrapper section .main .dl1 dl dd {
+  -webkit-box-flex: 1.5;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.wrapper section .main .dl1 dl dd img {
+  width: auto;
+  height: 72px;
+  background: none;
+}
+.wrapper section .main .dl2 {
+  width: 100%;
+  height: 167px;
+  background: none;
+  padding: 15px 0;
+  border-bottom: 1px solid #d8d8d8;
+  position: relative;
+}
+.wrapper section .main .dl2 p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: bold;
+  margin-bottom: 12px;
+  line-height: 23px;
+}
+.wrapper section .main .dl2 #images img {
+  width: auto;
+  height: 61px;
+  background: none;
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.wrapper section .main .dl2 ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrapper section .main .dl2 ul li {
+  display: inline-block;
+  font-size: 9px;
+  color: #909090;
+  text-align: center;
+  -webkit-box-flex: 1;
+}
+.wrapper section .main .dl2 .cha {
+  position: absolute;
+  width: auto;
+  height: 8px;
+  background: none;
+  bottom: 13px;
+  right: 0;
+}
+.wrapper footer {
+  width: 100%;
+  height: 44px;
+  background: #fafafa;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+  border-top: 1px solid #ded9d3;
+}
+.wrapper footer .move dd {
+  color: #109bf0;
+}
+.wrapper footer img {
+  width: auto;
+  height: 20px;
+  background: none;
+}
+.wrapper footer dd {
+  font-size: 8px;
+  color: #636363;
+}
+.wrapper footer dl {
+  -webkit-box-flex: 1;
+  margin-top: 7px;
+}

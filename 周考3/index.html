@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/zk3.css"/>
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+    <title></title>
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<img src="img/images/zk_03.png" id="img"/>
+			<div id="right">
+				<img src="img/images/zk_06.png"/>
+				<input type="text" placeholder="大家都在搜:富二代遭撕票" value="" />
+			</div>
+		</header>
+		<section id="section">
+			<div>
+				<div class="nav">
+					<ul>
+					 <div class="swiper-container">
+				        <div class="swiper-wrapper">
+				            <div class="swiper-slide"><li style="color: #1584d6;">推荐</li></div>
+				            <div class="swiper-slide"><li>要闻</li></div>
+				            <div class="swiper-slide"><li>北京</li></div>
+				            <div class="swiper-slide"><li>视频</li></div>
+				            <div class="swiper-slide"><li>电视直播</li></div>
+				            <div class="swiper-slide"><li>一点资讯</li></div>
+				        </div>
+				    </div>
+				   </ul>
+					<span></span>
+				</div>
+				<div class="main">
+					<div class="p">
+							<p>习近平如何向世界讲中国故事？</p>
+								<ul>
+									<li><span>置顶</span></li>
+									<li>一点资讯</li>
+									<li>3079评</li>
+									<li>一分钟前</li>
+								</ul>
+								<img src="img/images/zk_11.png"/>
+					</div>
+					<div class="dl1">
+						<dl>
+							<dt>
+								<p>金正男遇害后解放军增兵中朝边境？国防部回应</p>
+								<ul>
+									<li><span>热门</span></li>
+									<li>海外网</li>
+									<li>66评</li>
+								</ul>
+								<img src="img/images/zk_11.png"/>
+							</dt>
+							<dd><img src="img/images/zk_15.png"/></dd>
+						</dl>
+					</div>
+					<div class="dl1">
+						<dl>
+							<dt>
+								<p>云南省副省长参团旅游被强迫消费 商店"1对1"紧盯</p>
+								<ul>
+									<li><span>热门</span></li>
+									<li>凤凰网</li>
+									<li>11123评</li>
+								</ul>
+								<img src="img/images/zk_11.png"/>
+							</dt>
+							<dd><img src="img/images/zk_17.png"/></dd>
+						</dl>
+					</div>
+					<div class="dl2">
+						<p>30年前万元户现在值多少钱？看完只想向天再借500年...</p>
+						<div id="images">
+							<img src="img/images/zk_20.png"/>
+							<img src="img/images/zk_22.png"/>
+							<img src="img/images/zk_24.png"/>
+						</div>
+						<ul>
+							<li>深圳租房信息共享</li>
+							<li>252评</li>
+							<li>1小时前</li>
+						</ul>
+						<img src="img/images/zk_11.png" class="cha"/>
+					</div>
+					<div class="dl2">
+						<p>全国彩礼地图：3000万光棍娶不到老婆，因为当年她们都被杀死了</p>
+						<div id="images">
+							<img src="img/images/zk_20.png"/>
+							<img src="img/images/zk_22.png"/>
+							<img src="img/images/zk_24.png"/>
+						</div>
+						<ul>
+							<li>深圳租房信息共享</li>
+							<li>252评</li>
+							<li>1小时前</li>
+						</ul>
+						<img src="img/images/zk_11.png" class="cha"/>
+					</div>
+				</div>
+			</div>
+			<div style="display: none;">视频</div>
+			<div style="display: none;">应用号</div>
+			<div style="display: none;">我的</div>
+		</section>
+		<footer id="footer">
+			<dl class="move">
+				<dt><img src="img/images/zk_29.png"/></dt>
+				<dd>首页</dd>
+			</dl>
+			<dl>
+				<dt><img src="img/images/zk_31.png"/></dt>
+				<dd>视频</dd>
+			</dl>
+			<dl>
+				<dt><img src="img/images/zk_34.png"/></dt>
+				<dd>应用号</dd>
+			</dl>
+			<dl>
+				<dt><img src="img/images/zk_37.png"/></dt>
+				<dd>我</dd>
+			</dl>
+		</footer>
+	</div>
+</body>
+<script>
+    var swiper = new Swiper('.nav>ul .swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 10,
+        freeMode: true
+    });
+    $("#footer dl").on("click",function(){
+    	var index = $(this).index();
+    	$(this).addClass("move").siblings().removeClass("move");
+    	$("#section > div").hide().eq(index).show();
+    })
+    </script>
+</html>
