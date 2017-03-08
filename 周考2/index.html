@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/zhoukao2.css" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<script type="text/javascript" src="js/iscroll.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header>
+				<img src="img/images/bg_02.png" id="bgi" />
+				<div class="left">
+					<dl>
+						<dt><img src="img/images/zk_03.png"/></dt>
+						<dd>扫一扫</dd>
+					</dl>
+				</div>
+				<div class="center">
+					<img src="img/images/zk_08.png" class="ll" />
+					<input type="text" name="" id="" value="" placeholder="新品女鞋低价抢" />
+					<img src="img/images/zk_10.png" class="rr" />
+				</div>
+				<div class="right">
+					<dl>
+						<dt><img src="img/images/zk_05.png"/></dt>
+						<dd>消息</dd>
+					</dl>
+				</div>
+			</header>
+			<section id="wrapper">
+				<div class="wra">
+					<!--<img src="img/images/zk_16.png" />-->
+					<div class="banner1">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide"><img src="img/images/zk_16.png" /></div>
+								<div class="swiper-slide"><img src="img/images/zk_16.png" /></div>
+								<div class="swiper-slide"><img src="img/images/zk_16.png" /></div>
+								<div class="swiper-slide"><img src="img/images/zk_16.png" /></div>
+								<div class="swiper-slide"><img src="img/images/zk_16.png" /></div>
+							</div>
+						</div>
+					</div>
+					<div class="banner2">
+						<img src="img/images/zk_18.png" />
+					</div>
+					<div class="dl">
+						<dl>
+							<dt><img src="img/images/zk_21.png"/></dt>
+							<dd>天猫</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/images/zk_23.png"/></dt>
+							<dd>聚划算</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/images/zk_25.png"/></dt>
+							<dd>天猫国际</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/images/zk_27.png"/></dt>
+							<dd>外卖</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/images/zk_29.png"/></dt>
+							<dd>天猫超市</dd>
+						</dl>
+					</div>
+					<div class="dl">
+						<dl>
+							<dt><img src="img/images/zk_36.png"/></dt>
+							<dd>充值中心</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/images/zk_37.png"/></dt>
+							<dd>飞猪旅行</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/images/zk_38.png"/></dt>
+							<dd>领金币</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/images/zk_40.png"/></dt>
+							<dd>到家</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/images/zk_41.png"/></dt>
+							<dd>分类</dd>
+						</dl>
+					</div>
+					<div class="tui">
+						<dl>
+							<dt><img src="img/images/jian_03.png"/></dt>
+							<dd>
+								<p><span>热议</span>如果用手去拨劳斯莱斯的车标，结果会...</p>
+								<p><span>1212</span>软装那些事，双12创意装饰画大赏</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="gou">
+						<img src="img/images/zk_52.png" />
+					</div>
+				</div>
+			</section>
+			<footer>
+				<dl>
+					<dt><img src="img/images/zk_56.png"/></dt>
+					<dd style="color: #ff5c2e;">首页</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/images/zk_58.png"/></dt>
+					<dd>微淘</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/images/zk_60.png"/></dt>
+					<dd>问大家</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/images/zk_62.png"/></dt>
+					<dd>购物车</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/images/zk_64.png"/></dt>
+					<dd>我的淘宝</dd>
+				</dl>
+			</footer>
+		</div>
+	</body>
+	<script>
+		var swiper = new Swiper('.banner1 .swiper-container', {
+			pagination: '.swiper-pagination',
+			//      nextButton: '.swiper-button-next',
+			//      prevButton: '.swiper-button-prev',
+			paginationClickable: true,
+			spaceBetween: 30,
+			centeredSlides: true,
+			autoplay: 1000,
+			autoplayDisableOnInteraction: false
+		});
+		var myscroll = new IScroll("#wrapper", {
+			scrollbars: true,
+			disableMouse: true,
+			disablePointer: true,
+			scrollbars: 'custom'
+		});
+		
+	</script>
+
+</html>

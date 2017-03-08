@@ -1,0 +1,219 @@
+@import url(reset.css);
+html {
+  font-size: 62.5%; }
+
+html, body, .wrapper {
+  width: 100%;
+  height: 100%;
+  background: none; }
+
+.wrapper {
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+  .wrapper header {
+    position: relative;
+    width: 100%;
+    height: 42.5px;
+    background: none; }
+    .wrapper header #bgi {
+      width: 100%;
+      height: auto;
+      background: none; }
+    .wrapper header .left {
+      width: 30px;
+      height: 32.5px;
+      background: none;
+      position: absolute;
+      top: 7px;
+      left: 12px; }
+      .wrapper header .left img {
+        width: 23px;
+        height: auto;
+        background: none; }
+      .wrapper header .left dl dt {
+        text-align: center; }
+      .wrapper header .left dl dd {
+        font-size: 9px;
+        color: #fff0e9; }
+    .wrapper header .center {
+      position: absolute;
+      top: 7px;
+      left: 66px;
+      right: 66px;
+      -webkit-box-flex: 1;
+      width: auto;
+      height: 32px;
+      background: #ffffff;
+      border: none;
+      border-radius: 3px;
+      padding: 7.5px 8px 8.5px 25px; }
+      .wrapper header .center .ll {
+        width: 14px;
+        height: auto;
+        background: none;
+        position: absolute;
+        top: 7.5px;
+        left: 9px; }
+      .wrapper header .center input {
+        border: none;
+        font-size: 15px;
+        color: #ff5000;
+        outline: none; }
+      .wrapper header .center .rr {
+        width: 14px;
+        height: auto;
+        background: none;
+        position: absolute;
+        top: 7.5px;
+        right: 8px; }
+    .wrapper header .right {
+      width: 30px;
+      height: 32.5px;
+      background: none;
+      position: absolute;
+      top: 7px;
+      right: 10px; }
+      .wrapper header .right img {
+        width: 23px;
+        height: auto;
+        background: none; }
+      .wrapper header .right dl dt {
+        text-align: center; }
+      .wrapper header .right dl dd {
+        font-size: 9px;
+        color: #fff0e9;
+        text-align: center; }
+  .wrapper section {
+    -webkit-box-flex: 1;
+    overflow-y: auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; }
+    .wrapper section::-webkit-scrollbar {
+      width: 0; }
+    .wrapper section .banner1 img, .wrapper section .banner2 img {
+      width: 100%;
+      height: auto;
+      background: none; }
+    .wrapper section .dl {
+      display: -webkit-box;
+      -webkit-box-orient: horizontal;
+      width: 100%;
+      height: 72px;
+      background: none; }
+      .wrapper section .dl dl {
+        -webkit-box-flex: 1;
+        text-align: center;
+        margin-top: 12px; }
+        .wrapper section .dl dl dt img {
+          width: auto;
+          height: 43px;
+          background: none; }
+        .wrapper section .dl dl dd {
+          font-size: 10px;
+          color: #787878; }
+    .wrapper section .tui {
+      display: -webkit-box;
+      -webkit-box-orient: horizontal;
+      width: 100%;
+      height: auto;
+      background: none;
+      padding: 5px 14px 5px 19px; }
+      .wrapper section .tui dt {
+        float: left; }
+        .wrapper section .tui dt img {
+          width: auto;
+          height: 43.5px;
+          background: none; }
+      .wrapper section .tui dd {
+        padding-top: 6px;
+        padding-left: 10px;
+        float: left;
+        line-height: 20px;
+        font-size: 10px;
+        color: #464646; }
+        .wrapper section .tui dd span {
+          display: inline-block;
+          width: 29px;
+          height: 15px;
+          background: none;
+          border: 1px solid red;
+          font-size: 10px;
+          color: red;
+          box-sizing: border-box;
+          border-radius: 3px;
+          line-height: 15px;
+          text-align: center; }
+    @media screen and (min-height: 630px) and (max-height: 1024px) {
+      .wrapper section .dl {
+        -webkit-box-flex: 1; }
+        .wrapper section .dl dl dt img {
+          width: auto;
+          height: 45px;
+          background: none; }
+        .wrapper section .dl dl dd {
+          font-size: 12px;
+          font-weight: bold; }
+      .wrapper section .wra .tui {
+        -webkit-box-flex: 1;
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        width: 100%;
+        height: auto;
+        background: none;
+        padding: 5px 14px 5px 19px; }
+        .wrapper section .wra .tui dt {
+          float: left; }
+          .wrapper section .wra .tui dt img {
+            width: auto;
+            height: 45px;
+            background: none; }
+        .wrapper section .wra .tui dd {
+          padding-top: 6px;
+          padding-left: 10px;
+          float: left;
+          line-height: 20px;
+          font-size: 12px;
+          font-weight: bold;
+          color: #464646; }
+          .wrapper section .wra .tui dd span {
+            display: inline-block;
+            width: 29px;
+            height: 15px;
+            background: none;
+            border: 1px solid red;
+            font-size: 12px;
+            font-weight: bold;
+            color: red;
+            box-sizing: border-box;
+            border-radius: 3px;
+            line-height: 15px;
+            text-align: center;
+            margin-right: 5px; } }
+    .wrapper section .gou {
+      width: 100%;
+      height: auto;
+      background: none;
+      box-sizing: border-box;
+      border: 6px solid #fc4423; }
+      .wrapper section .gou img {
+        width: 100%;
+        height: auto;
+        background: none; }
+  .wrapper footer {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    width: 100%;
+    height: 49px;
+    background: none;
+    border-top: 1px solid #b2b2b2; }
+    .wrapper footer dl {
+      -webkit-box-flex: 1;
+      text-align: center;
+      margin-top: 6px; }
+      .wrapper footer dl dt img {
+        width: auto;
+        height: 23px;
+        background: none; }
+      .wrapper footer dl dd {
+        font-size: 10px;
+        color: #71767f; }
