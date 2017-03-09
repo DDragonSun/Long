@@ -1,0 +1,79 @@
+@import url("reset.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+#change {
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    -webkit-animation: change 2s linear infinite;
+}
+@-webkit-keyframes change {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+.test {
+    position: relative;
+    .whb(150px,150px,none);
+    .box {
+        line-height: 10px;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        .whb(70px,20px,none);
+        box-sizing: border-box;
+        transform: rotate(190deg);
+    }
+    .box2 {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        .whb(70px,20px,none); 
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        transform: rotate(360deg);
+    }
+    .box3 {
+        transform: rotate(180deg);
+        position: absolute;
+        text-align: center;
+        right: 65px;
+        top: 0;
+        .whb(20px,60px,none);
+    }
+    .box4 {
+        position: absolute;
+        text-align: center;
+        right: 65px;
+        bottom: 0;
+        .whb(20px,65px,none); 
+    }
+    .span_little {
+        display: inline-block;
+        .whb(10px,10px,red);
+        border-radius: 50%;
+    }
+    .span_cen {
+        display: inline-block;
+        .whb(15px,15px,red);
+        border-radius: 50%;
+    }
+    .span_big {
+        display: inline-block;
+        .whb(18px,18px,red);
+        border-radius: 50%;
+    }
+    .ll{
+        margin-top:5px;
+        
+    }
+}

@@ -1,0 +1,89 @@
+@import url("reset.css");
+#change {
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  -webkit-animation: change 2s linear infinite;
+}
+@-webkit-keyframes change {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+.test {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: none;
+}
+.test .box {
+  line-height: 10px;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 70px;
+  height: 20px;
+  background: none;
+  box-sizing: border-box;
+  transform: rotate(190deg);
+}
+.test .box2 {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  width: 70px;
+  height: 20px;
+  background: none;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  transform: rotate(360deg);
+}
+.test .box3 {
+  transform: rotate(180deg);
+  position: absolute;
+  text-align: center;
+  right: 65px;
+  top: 0;
+  width: 20px;
+  height: 60px;
+  background: none;
+}
+.test .box4 {
+  position: absolute;
+  text-align: center;
+  right: 65px;
+  bottom: 0;
+  width: 20px;
+  height: 65px;
+  background: none;
+}
+.test .span_little {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #ff0000;
+  border-radius: 50%;
+}
+.test .span_cen {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #ff0000;
+  border-radius: 50%;
+}
+.test .span_big {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: #ff0000;
+  border-radius: 50%;
+}
+.test .ll {
+  margin-top: 5px;
+}
